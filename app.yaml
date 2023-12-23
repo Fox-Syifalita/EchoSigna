@@ -1,0 +1,12 @@
+runtime: python312
+
+handlers:
+# Matches requests to /images/... to files in static/images/...
+- url: /styles
+  static_dir: styles
+
+- url: /images
+  static_dir: static/images
+
+- url: /.*
+  script: auto
