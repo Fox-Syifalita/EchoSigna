@@ -1,5 +1,7 @@
 runtime: python312
 
+service_account: 702409349609-compute@echosigna.iam.gserviceaccount.com
+
 handlers:
 # Matches requests to /images/... to files in static/images/...
 - url: /styles
